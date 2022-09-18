@@ -1,0 +1,4 @@
+feign:
+  client:
+    dummy-json:
+      base-url: https://dummyjson.com
