@@ -2,6 +2,7 @@
 
 > **_A simple project for learning about Spring's Open Feign Client and it's possible retry system._**
 
+The idea is to make a call to a [dummy public API](https://dummyjson.com "Dummy JSON API") to an existing endpoint, but also to a nonexistent endpoint, in which case, 3 retries should be executed to the latter before a 404 response error.
 
 ### Technologies used:
 
